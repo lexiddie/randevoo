@@ -1,0 +1,322 @@
+[
+  {
+    "name": "Thailand",
+    "dialCode": "+66",
+    "code": "TH",
+    "currency": {
+      "name": "Thai Baht",
+      "code": "THB",
+      "symbol": "฿"
+    },
+    "regions": [
+      {
+        "name": "Bangkok",
+        "thai": "กรุงเทพมหานคร"
+      },
+      {
+        "name": "Samut Prakan",
+        "thai": "สมุทรปราการ"
+      },
+      {
+        "name": "Nonthaburi",
+        "thai": "นนทบุรี"
+      },
+      {
+        "name": "Pathum Thani",
+        "thai": "ปทุมธานี"
+      },
+      {
+        "name": "Ayutthaya",
+        "thai": "พระนครศรีอยุธยา"
+      },
+      {
+        "name": "Ang Thong",
+        "thai": "อ่างทอง"
+      },
+      {
+        "name": "Lop Buri",
+        "thai": "ลพบุรี"
+      },
+      {
+        "name": "Sing Buri",
+        "thai": "สิงห์บุรี"
+      },
+      {
+        "name": "Chai Nat",
+        "thai": "ชัยนาท"
+      },
+      {
+        "name": "Saraburi",
+        "thai": "สระบุรี"
+      },
+      {
+        "name": "Chon Buri",
+        "thai": "ชลบุรี"
+      },
+      {
+        "name": "Rayong",
+        "thai": "ระยอง"
+      },
+      {
+        "name": "Chanthaburi",
+        "thai": "จันทบุรี"
+      },
+      {
+        "name": "Trat",
+        "thai": "ตราด"
+      },
+      {
+        "name": "Chachoengsao",
+        "thai": "ฉะเชิงเทรา"
+      },
+      {
+        "name": "Prachin Buri",
+        "thai": "ปราจีนบุรี"
+      },
+      {
+        "name": "Nakhon Nayok",
+        "thai": "นครนายก"
+      },
+      {
+        "name": "Sakaeo",
+        "thai": "สระแก้ว"
+      },
+      {
+        "name": "Nakhon Ratchasima",
+        "thai": "นครราชสีมา"
+      },
+      {
+        "name": "Buri Ram",
+        "thai": "บุรีรัมย์"
+      },
+      {
+        "name": "Surin",
+        "thai": "สุรินทร์"
+      },
+      {
+        "name": "Si Sa Ket",
+        "thai": "ศรีสะเกษ"
+      },
+      {
+        "name": "Ubon Ratchathani",
+        "thai": "อุบลราชธานี"
+      },
+      {
+        "name": "Yasothon",
+        "thai": "ยโสธร"
+      },
+      {
+        "name": "Chaiyaphum",
+        "thai": "ชัยภูมิ"
+      },
+      {
+        "name": "Amnat Charoen",
+        "thai": "อำนาจเจริญ"
+      },
+      {
+        "name": "Nong Bua Lam Phu",
+        "thai": "หนองบัวลำภู"
+      },
+      {
+        "name": "Khon Kaen",
+        "thai": "ขอนแก่น"
+      },
+      {
+        "name": "Udon Thani",
+        "thai": "อุดรธานี"
+      },
+      {
+        "name": "Loei",
+        "thai": "เลย"
+      },
+      {
+        "name": "Nong Khai",
+        "thai": "หนองคาย"
+      },
+      {
+        "name": "Maha Sarakham",
+        "thai": "มหาสารคาม"
+      },
+      {
+        "name": "Roi Et",
+        "thai": "ร้อยเอ็ด"
+      },
+      {
+        "name": "Kalasin",
+        "thai": "กาฬสินธุ์"
+      },
+      {
+        "name": "Sakon Nakhon",
+        "thai": "สกลนคร"
+      },
+      {
+        "name": "Nakhon Phanom",
+        "thai": "นครพนม"
+      },
+      {
+        "name": "Mukdahan",
+        "thai": "มุกดาหาร"
+      },
+      {
+        "name": "Chiang Mai",
+        "thai": "เชียงใหม่"
+      },
+      {
+        "name": "Lamphun",
+        "thai": "ลำพูน"
+      },
+      {
+        "name": "Lampang",
+        "thai": "ลำปาง"
+      },
+      {
+        "name": "Uttaradit",
+        "thai": "อุตรดิตถ์"
+      },
+      {
+        "name": "Phrae",
+        "thai": "แพร่"
+      },
+      {
+        "name": "Nan",
+        "thai": "น่าน"
+      },
+      {
+        "name": "Phayao",
+        "thai": "พะเยา"
+      },
+      {
+        "name": "Chiang Rai",
+        "thai": "เชียงราย"
+      },
+      {
+        "name": "Mae Hong Son",
+        "thai": "แม่ฮ่องสอน"
+      },
+      {
+        "name": "Nakhon Sawan",
+        "thai": "นครสวรรค์"
+      },
+      {
+        "name": "Uthai Thani",
+        "thai": "อุทัยธานี"
+      },
+      {
+        "name": "Kamphaeng Phet",
+        "thai": "กำแพงเพชร"
+      },
+      {
+        "name": "Tak",
+        "thai": "ตาก"
+      },
+      {
+        "name": "Sukhothai",
+        "thai": "สุโขทัย"
+      },
+      {
+        "name": "Phitsanulok",
+        "thai": "พิษณุโลก"
+      },
+      {
+        "name": "Phichit",
+        "thai": "พิจิตร"
+      },
+      {
+        "name": "Phetchabun",
+        "thai": "เพชรบูรณ์"
+      },
+      {
+        "name": "Ratchaburi",
+        "thai": "ราชบุรี"
+      },
+      {
+        "name": "Kanchanaburi",
+        "thai": "กาญจนบุรี"
+      },
+      {
+        "name": "Suphan Buri",
+        "thai": "สุพรรณบุรี"
+      },
+      {
+        "name": "Nakhon Pathom",
+        "thai": "นครปฐม"
+      },
+      {
+        "name": "Samut Sakhon",
+        "thai": "สมุทรสาคร"
+      },
+      {
+        "name": "Samut Songkhram",
+        "thai": "สมุทรสงคราม"
+      },
+      {
+        "name": "Phetchaburi",
+        "thai": "เพชรบุรี"
+      },
+      {
+        "name": "Prachuap Khiri Khan",
+        "thai": "ประจวบคีรีขันธ์"
+      },
+      {
+        "name": "Nakhon Si Thammarat",
+        "thai": "นครศรีธรรมราช"
+      },
+      {
+        "name": "Krabi",
+        "thai": "กระบี่"
+      },
+      {
+        "name": "Phangnga",
+        "thai": "พังงา"
+      },
+      {
+        "name": "Phuket",
+        "thai": "ภูเก็ต"
+      },
+      {
+        "name": "Surat Thani",
+        "thai": "สุราษฎร์ธานี"
+      },
+      {
+        "name": "Ranong",
+        "thai": "ระนอง"
+      },
+      {
+        "name": "Chumphon",
+        "thai": "ชุมพร"
+      },
+      {
+        "name": "Songkhla",
+        "thai": "สงขลา"
+      },
+      {
+        "name": "Satun",
+        "thai": "สตูล"
+      },
+      {
+        "name": "Trang",
+        "thai": "ตรัง"
+      },
+      {
+        "name": "Phatthalung",
+        "thai": "พัทลุง"
+      },
+      {
+        "name": "Pattani",
+        "thai": "ปัตตานี"
+      },
+      {
+        "name": "Yala",
+        "thai": "ยะลา"
+      },
+      {
+        "name": "Narathiwat",
+        "thai": "นราธิวาส"
+      },
+      {
+        "name": "Bueng Kan",
+        "thai": "บึงกาฬ"
+      }
+    ]
+  }
+]

@@ -1,0 +1,226 @@
+.user-preview {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+
+  > div {
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+    > div:nth-child(1).user-profile {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+
+      > div {
+        width: 800px;
+        height: auto;
+        display: flex;
+        margin-bottom: 20px;
+
+        > div:nth-child(1) {
+          width: 35%;
+          height: 200px;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+
+          > img.user-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            background-size: cover;
+            background-position: center;
+            margin-bottom: 5px;
+            object-fit: cover;
+            margin-right: 30px;
+            background-color: rgba($color: gray, $alpha: 0.5);
+            border: 4px solid rgba($color: gray, $alpha: 0.1);
+          }
+        }
+
+        > div:nth-child(2) {
+          width: 65%;
+          height: 100%;
+          padding-top: 20px;
+
+          > div.user-name {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+
+            > span:nth-child(1) {
+              width: 100%;
+              font-weight: 500;
+              font-size: larger;
+              color: black;
+            }
+          }
+
+          > div.user-bio {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+
+            > span:nth-child(1) {
+              width: 100%;
+              font-weight: 500;
+              font-size: large;
+            }
+          }
+
+          > div.user-site {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            cursor: pointer;
+
+            > span:nth-child(1) {
+              width: 100%;
+              font-weight: 500;
+              font-size: larger;
+              color: rgba($color: #143667, $alpha: 1);
+            }
+          }
+
+          > div.user-location {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+
+            > span:nth-child(1) {
+              width: 100%;
+              font-weight: 500;
+              font-size: larger;
+              color: rgba($color: #143667, $alpha: 1);
+            }
+          }
+        }
+      }
+    }
+
+    > div:nth-child(2) {
+      width: 100%;
+      height: auto;
+      overflow: auto !important;
+      display: flex;
+      justify-content: center;
+
+      > div {
+        width: 1000px;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+
+        > div {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+
+          > div.user-status {
+            width: 100%;
+            height: 45px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 20px;
+
+            > span {
+              padding-top: 10px;
+              border-radius: 10px;
+              width: 300px;
+              height: 100%;
+              font-weight: 500;
+              font-size: larger;
+              text-align: center;
+              color: #2196f3;
+              background-color: rgba($color: #2196f3, $alpha: 0.3);
+              &.banned {
+                color: #f44336;
+                background-color: rgba($color: #f44336, $alpha: 0.3);
+              }
+            }
+          }
+
+          > div.user-action-button {
+            width: 100%;
+            height: 35px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 10px;
+
+            > button {
+              width: 150px;
+              height: 100%;
+            }
+          }
+
+          > ul {
+            width: 100%;
+            height: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+
+            > li {
+              width: 150px;
+              height: 100%;
+              display: flex;
+
+              > a {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+
+                > span {
+                  padding-top: 5px;
+                  text-align: center;
+                  font-size: larger;
+                  font-weight: 500;
+
+                  &.active {
+                    color: $primary;
+                  }
+                }
+
+                &:hover,
+                &:focus,
+                &:active,
+                &.active {
+                  color: $primary;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

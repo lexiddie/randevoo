@@ -1,0 +1,50 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '12.0'
+
+target 'randevoo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for randevoo
+  pod 'Alamofire', '~> 5.4.1'
+  pod 'AlamofireImage'
+	# pod 'AlamofireImage', '~> 4.1.0'
+  pod 'SwiftyJSON', '~> 5.0.1'
+  pod 'ObjectMapper', '~> 4.2.0'
+	pod 'Cache', '~> 5.3.0'
+  pod 'SnapKit', '~> 5.0.1'
+  pod 'Hex', '~> 6.1.0'
+  pod 'ImageSlideshow', '~> 1.9.2'
+  pod 'ImageSlideshow/Alamofire'
+  pod 'CryptoSwift', '~> 1.3.8'
+  pod 'YPImagePicker', '~> 4.4.0'
+  pod 'SwiftGifOrigin', '~> 1.7.0'
+  pod 'HorizonCalendar', '~> 1.8.0'
+  pod 'HydraAsync', '~> 2.0.5'
+  pod 'MessageKit', '~> 3.5.1'
+  pod 'IQKeyboardManagerSwift', '~> 6.5.6'
+  # Google pods
+  pod 'GoogleMaps', '~> 4.2.0'
+  pod 'GooglePlaces', '~> 4.2.0'
+  pod 'GoogleSignIn', '~> 5.0.2'
+  # pod 'Firebase/Firestore'
+  # pod 'Firebase/Storage'
+  # pod 'Firebase/Auth'
+  # pod 'Firebase/Functions'
+  # pod 'Firebase/Messaging'
+  # pod 'Firebase/Analytics'
+	pod 'Firebase/Firestore', '~> 7.9.0'
+  pod 'Firebase/Storage', '~> 7.9.0'
+  pod 'Firebase/Auth', '~> 7.9.0'
+  pod 'Firebase/Functions', '~> 7.9.0'
+  pod 'Firebase/Messaging', '~> 7.9.0'
+  pod 'Firebase/Analytics', '~> 7.9.0'
+  # Facebook pods
+  pod 'FBSDKLoginKit', '~> 9.1.0'
+  # Modal and Animation
+	pod 'NVActivityIndicatorView'
+  pod 'Hero', '~> 1.6.1'
+  pod 'Presentr', '~> 1.9'
+  # Algolia Search API Client
+  pod 'InstantSearchClient', '~> 7.0.5'
+end

@@ -1,0 +1,196 @@
+[
+    
+    {
+      "id": "cyQ6qYR9M0p8itmQAKUS",
+      "label": "Colors",
+      "name": "color",
+      "values": [
+        "Red",
+        "Pink",
+        "Purple",
+        "Deep Purple",
+        "Indigo",
+        "Blue",
+        "Light Blue",
+        "Cyan",
+        "Teal",
+        "Green",
+        "Light Green",
+        "Lime",
+        "Orange",
+        "Deep Orange",
+        "Grey",
+        "Blue Grey",
+        "Beige",
+        "Navy",
+        "Black",
+        "White",
+        "Yellow",
+        "Brown"
+      ]
+    },
+  {
+    "id": "G6DGb6kiM2kVLukv5EtP",
+    "label": "Men Shirts",
+    "name": "size",
+    "values": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48"
+    ]
+  },
+  {
+    "id": "BWb9tNEcaHvM6CvjzJp0",
+    "label": "Men Clothing",
+    "name": "size",
+    "values": [
+      "One Size",
+      "XXXS",
+      "XXS",
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ]
+  },
+  {
+    "id": "r3IOerUg1wcTLIDdQsuG",
+    "label": "Men Shoes",
+    "name": "size",
+    "values": [
+        "36 EU",
+        "36.5 EU",
+        "37 EU",
+        "37.5 EU",
+        "38 EU",
+      "38.5 EU",
+      "39 EU",
+      "40 EU",
+      "41 EU",
+      "42 EU",
+      "42.5 EU",
+      "43 EU",
+      "44 EU",
+      "45 EU",
+      "45.5 EU",
+      "46 EU",
+      "47 EU",
+      "47.5 EU",
+      "48 EU",
+      "48.5 EU",
+      "49 EU",
+      "49.5 EU",
+      "50 EU",
+      "50.5 EU",
+      "51 EU",
+      "51.5 EU",
+      "52 EU",
+      "52.5 EU"
+    ]
+  },
+  {
+    "id": "jZDB0hME7RVqaWQYWfrF",
+    "label": "Men Bags",
+    "name": "size",
+    "values": [
+        "One Size",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+    ]
+  },
+  {
+    "id": "VCrs5toNNxrpZCgTNVBY",
+    "label": "Men Belts",
+    "name": "size",
+    "values": [
+        "One Size",
+        "XXXS",
+        "XXS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+    ]
+  },
+  {
+    "id": "gaZQnCA97aOOetbGX8in",
+    "label": "Women Shoes",
+    "name": "size",
+    "values": [
+      "34 EU",
+      "34.5 EU",
+      "35 EU",
+      "35.5 EU",
+      "36 EU",
+      "36.5 EU",
+      "37.5 EU",
+      "38 EU",
+      "38.5 EU",
+      "39 EU",
+      "40 EU",
+      "40.5 EU",
+      "41 EU",
+      "42 EU",
+      "42.5 EU",
+      "43 EU",
+      "44 EU",
+      "44.5 EU",
+      "45 EU",
+      "45.5 EU"
+    ]
+  },
+  {
+    "id": "der3Pj5LYDJceZTuqq68",
+    "label": "Women Clothing",
+    "name": "size",
+    "values": [
+      "One Size",
+      "XXXS",
+      "XXS",
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ]
+  },
+  {
+    "id": "ZGmg0sAzo4l7iUJlbsNQ",
+    "label": "Women Bags",
+    "name": "size",
+    "values": ["One Size"]
+  },
+  {
+    "id": "O8rKpwYlBRaMgqbfFVqf",
+    "label": "Women Belts",
+    "name": "size",
+    "values": [
+        "One Size",
+        "XXXS",
+        "XXS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+    ]
+  }
+]

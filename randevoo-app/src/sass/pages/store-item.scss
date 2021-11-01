@@ -1,0 +1,89 @@
+.store-item {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  align-items: center;
+  position: relative;
+  margin: 10px;
+  margin-top: 50px;
+  cursor: pointer;
+
+  .ban-status {
+    width: 100%;
+    height: 83%;
+    position: absolute;
+    z-index: 3;
+    display: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    // background-color: rgba($color: #f44336, $alpha: 0.3);
+
+    &.active {
+      display: flex;
+    }
+
+    > span {
+      width: 50%;
+      margin-left: 10px;
+      margin-right: 10px;
+      border-radius: 10px;
+      text-align: center;
+      font-weight: 500 !important;
+      font-size: x-large !important;
+      background-color: rgba($color: #f44336, $alpha: 1);
+      // color: #f44336;
+      color: white;
+    }
+  }
+
+  .store-photo {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5px;
+    object-fit: cover;
+    background-color: rgba($color: gray, $alpha: 0.5);
+    border: 0.5px solid rgba($color: gray, $alpha: 0.4);
+  }
+
+  &:hover {
+    .store-photo {
+      opacity: 0.8;
+    }
+  }
+
+  .store-footer {
+    z-index: 4;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+
+    .username {
+      width: 100%;
+      height: 60%;
+      text-align: center;
+      display: inline-block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      margin-bottom: 5px;
+      margin-top: 5px;
+      font-size: larger;
+    }
+
+    .location {
+      width: 100%;
+      height: 40%;
+      text-align: center;
+      font-size: large;
+    }
+  }
+}

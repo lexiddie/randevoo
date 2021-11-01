@@ -1,0 +1,132 @@
+.product-item {
+  display: flex;
+  flex-direction: column;
+  height: 320px;
+  width: 280px;
+  align-items: center;
+  position: relative;
+  margin: 15px;
+
+  .ban-status {
+    width: 100%;
+    height: 83%;
+    position: absolute;
+    z-index: 3;
+    display: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    &.active {
+      display: flex;
+    }
+
+    > span {
+      width: 50%;
+      margin-left: 10px;
+      margin-right: 10px;
+      border-radius: 10px;
+      text-align: center;
+      font-weight: 500 !important;
+      font-size: x-large !important;
+      background-color: rgba($color: #f44336, $alpha: 1);
+      color: white;
+
+      &.inactive {
+        background-color: rgba($color: #2196f3, $alpha: 1);
+        color: white;
+      }
+
+      &.hide {
+        display: none;
+      }
+    }
+  }
+
+  .product-photo {
+    width: 100%;
+    height: 90%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5px;
+  }
+
+  .custom-button {
+    width: 80%;
+    height: 45px !important;
+    opacity: 0.7;
+    position: absolute;
+    top: 200px;
+    display: none;
+    z-index: 4;
+  }
+
+  &:hover {
+    .product-photo {
+      opacity: 0.8;
+    }
+
+    .custom-button {
+      opacity: 0.85;
+      display: flex;
+    }
+  }
+
+  .product-footer {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+
+    .name {
+      width: 100%;
+      height: 60%;
+      text-align: center;
+      display: inline-block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: large;
+    }
+
+    .price {
+      width: 100%;
+      height: 40%;
+      text-align: center;
+      font-size: large;
+    }
+  }
+
+  .store-footer {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+
+    .username {
+      width: 100%;
+      height: 60%;
+      text-align: center;
+      display: inline-block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      margin-bottom: 5px;
+      margin-top: 5px;
+      font-size: larger;
+    }
+
+    .location {
+      width: 100%;
+      height: 40%;
+      text-align: center;
+      font-size: large;
+    }
+  }
+}
